@@ -1,8 +1,28 @@
 vaadin7-themes
 ==============
 
-Additional themes for Vaadin 7.
+Precompiled additional themes for Vaadin 7.
 
+
+Using
+========
+
+Add dependency to your war maven project:
+
+		<dependency>
+			<groupId>com.indvd00m.vaadin</groupId>
+			<artifactId>vaadin7-themes</artifactId>
+			<version>1.0.0</version>
+			<type>war</type>
+			<scope>runtime</scope>
+		</dependency>
+
+Use new theme in your UI with @Theme annotaion:
+
+	@Theme("valo-reindeer")
+	public class MyUI extends UI {
+		...
+	}
 
 Workflow
 ========
