@@ -6,16 +6,22 @@ Precompiled additional themes for Vaadin 7.
 
 Using
 ========
+Add repository to your POM:
+
+	<repository>
+		<id>indvd00m-github-repo</id>
+		<url>https://github.com/indvd00m/maven-repo/raw/master/repository</url>
+	</repository>
 
 Add dependency to your war maven project:
 
-		<dependency>
-			<groupId>com.indvd00m.vaadin</groupId>
-			<artifactId>vaadin7-themes</artifactId>
-			<version>1.0.2</version>
-			<type>war</type>
-			<scope>runtime</scope>
-		</dependency>
+	<dependency>
+		<groupId>com.indvd00m.vaadin</groupId>
+		<artifactId>vaadin7-themes</artifactId>
+		<version>1.0.2</version>
+		<type>war</type>
+		<scope>runtime</scope>
+	</dependency>
 
 Use new theme in your UI with @Theme annotaion:
 
