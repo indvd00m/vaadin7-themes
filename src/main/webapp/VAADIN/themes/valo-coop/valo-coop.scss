@@ -27,11 +27,19 @@
 // For more information, see: https://vaadin.com/book/-/page/themes.valo.html
 // Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
 
-@import "variables";
-@import "../valo-coop/valo-coop.scss";
+@import "../valo/valo.scss";
 
-@mixin valo-facebook {
-  @include valo-coop;
+@mixin valo-coop {
+	@include valo;
 
-  // Insert your own theme rules here
+	// Insert your own theme rules here
+	.v-calendar .could {
+		background-color: #66CC99;
+		color: #006633;
+	}
+
+	.v-calendar .cannot {
+		background-color: #FFCCCC;
+		color: #993333;
+	}
 }
