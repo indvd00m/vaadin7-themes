@@ -33,13 +33,15 @@
 	@include valo;
 
 	// Insert your own theme rules here
-	.v-calendar .could {
+	
+	.v-calendar .could, .v-calendar .v-calendar-event-could, .v-calendar .v-calendar-event-could-all-day {
 		background-color: #66CC99;
 		color: #006633;
 	}
 
-	.v-calendar .cannot {
+	.v-calendar .cannot, .v-calendar .v-calendar-event-cannot, .v-calendar .v-calendar-event-cannot-all-day {
 		background-color: #FFCCCC;
 		color: #993333;
 	}
+
 }
