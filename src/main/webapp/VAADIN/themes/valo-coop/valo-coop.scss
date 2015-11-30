@@ -34,14 +34,20 @@
 
 	// Insert your own theme rules here
 	
-	.v-calendar .could, .v-calendar .v-calendar-event-could, .v-calendar .v-calendar-event-could-all-day {
-		background-color: #66CC99;
-		color: #006633;
+	.v-calendar .v-calendar-event-could, 
+	.v-calendar .v-calendar-event-could-all-day, 
+	.v-calendar .v-calendar-event-could .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-could .v-calendar-event-content {
+		background-color: rgba(102, 204, 153, 0.5);
+		color: rgb(0, 102, 51);
 	}
 
-	.v-calendar .cannot, .v-calendar .v-calendar-event-cannot, .v-calendar .v-calendar-event-cannot-all-day {
-		background-color: #FFCCCC;
-		color: #993333;
+	.v-calendar .v-calendar-event-cannot, 
+	.v-calendar .v-calendar-event-cannot-all-day, 
+	.v-calendar .v-calendar-event-cannot .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-cannot .v-calendar-event-content {
+		background-color: rgba(255, 204, 204, 0.5);
+		color: rgb(153, 51, 51);
 	}
 
 }
