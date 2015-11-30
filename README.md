@@ -18,7 +18,7 @@ Add dependency to your war maven project:
 	<dependency>
 		<groupId>com.indvd00m.vaadin</groupId>
 		<artifactId>vaadin7-themes</artifactId>
-		<version>1.0.3</version>
+		<version>1.0.4</version>
 		<type>war</type>
 		<scope>runtime</scope>
 	</dependency>
