@@ -34,6 +34,16 @@
 
 	// Insert your own theme rules here
 	
+	.expectedDate,
+	.v-calendar .v-calendar-event-expectedDate, 
+	.v-calendar .v-calendar-event-expectedDate-all-day, 
+	.v-calendar .v-calendar-event-expectedDate .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-expectedDate .v-calendar-event-content {
+		background-color: rgba(200, 234, 244, 0.8);
+		color: rgb(0, 172, 224);
+	}
+	
+	.could,
 	.v-calendar .v-calendar-event-could, 
 	.v-calendar .v-calendar-event-could-all-day, 
 	.v-calendar .v-calendar-event-could .v-calendar-event-caption, 
@@ -42,12 +52,121 @@
 		color: rgb(0, 102, 51);
 	}
 
+	.cannot,
 	.v-calendar .v-calendar-event-cannot, 
 	.v-calendar .v-calendar-event-cannot-all-day, 
 	.v-calendar .v-calendar-event-cannot .v-calendar-event-caption, 
 	.v-calendar .v-calendar-event-cannot .v-calendar-event-content {
 		background-color: rgba(255, 204, 204, 0.5);
 		color: rgb(153, 51, 51);
+	}
+
+	.rating-0,
+	.v-calendar .v-calendar-event-rating-0, 
+	.v-calendar .v-calendar-event-rating-0-all-day, 
+	.v-calendar .v-calendar-event-rating-0 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-0 .v-calendar-event-content {
+		background-color: rgba(255, 204, 204, 0.5);
+		color: rgb(153, 51, 51);
+	}
+
+	.rating-10,
+	.v-calendar .v-calendar-event-rating-10, 
+	.v-calendar .v-calendar-event-rating-10-all-day, 
+	.v-calendar .v-calendar-event-rating-10 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-10 .v-calendar-event-content {
+		background-color: rgba(245, 204, 199, 0.5);
+		color: rgb(143, 56, 51);
+	}
+
+	.rating-20,
+	.v-calendar .v-calendar-event-rating-20, 
+	.v-calendar .v-calendar-event-rating-20-all-day, 
+	.v-calendar .v-calendar-event-rating-20 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-20 .v-calendar-event-content {
+		background-color: rgba(235, 204, 194, 0.5);
+		color: rgb(133, 61, 51);
+	}
+
+	.rating-30,
+	.v-calendar .v-calendar-event-rating-30, 
+	.v-calendar .v-calendar-event-rating-30-all-day, 
+	.v-calendar .v-calendar-event-rating-30 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-30 .v-calendar-event-content {
+		background-color: rgba(225, 204, 189, 0.5);
+		color: rgb(123, 66, 51);
+	}
+
+	.rating-40,
+	.v-calendar .v-calendar-event-rating-40, 
+	.v-calendar .v-calendar-event-rating-40-all-day, 
+	.v-calendar .v-calendar-event-rating-40 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-40 .v-calendar-event-content {
+		background-color: rgba(215, 204, 184, 0.5);
+		color: rgb(113, 71, 51);
+	}
+
+	.rating-50,
+	.v-calendar .v-calendar-event-rating-50, 
+	.v-calendar .v-calendar-event-rating-50-all-day, 
+	.v-calendar .v-calendar-event-rating-50 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-50 .v-calendar-event-content {
+		background-color: rgba(205, 204, 179, 0.5);
+		color: rgb(103, 76, 51);
+	}
+
+	.rating-60,
+	.v-calendar .v-calendar-event-rating-60, 
+	.v-calendar .v-calendar-event-rating-60-all-day, 
+	.v-calendar .v-calendar-event-rating-60 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-60 .v-calendar-event-content {
+		background-color: rgba(195, 204, 174, 0.5);
+		color: rgb(93, 81, 51);
+	}
+
+	.rating-70,
+	.v-calendar .v-calendar-event-rating-70, 
+	.v-calendar .v-calendar-event-rating-70-all-day, 
+	.v-calendar .v-calendar-event-rating-70 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-70 .v-calendar-event-content {
+		background-color: rgba(185, 204, 169, 0.5);
+		color: rgb(83, 86, 51);
+	}
+
+	.rating-80,
+	.v-calendar .v-calendar-event-rating-80, 
+	.v-calendar .v-calendar-event-rating-80-all-day, 
+	.v-calendar .v-calendar-event-rating-80 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-80 .v-calendar-event-content {
+		background-color: rgba(175, 204, 164, 0.5);
+		color: rgb(73, 91, 51);
+	}
+
+	.rating-90,
+	.v-calendar .v-calendar-event-rating-90, 
+	.v-calendar .v-calendar-event-rating-90-all-day, 
+	.v-calendar .v-calendar-event-rating-90 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-90 .v-calendar-event-content {
+		background-color: rgba(165, 204, 159, 0.5);
+		color: rgb(63, 96, 51);
+	}
+
+	.rating-100,
+	.v-calendar .v-calendar-event-rating-100, 
+	.v-calendar .v-calendar-event-rating-100-all-day, 
+	.v-calendar .v-calendar-event-rating-100 .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-100 .v-calendar-event-content {
+		background-color: rgba(155, 204, 154, 0.5);
+		color: rgb(53, 101, 51);
+	}
+	
+	.rating-ideal,
+	.v-calendar .v-calendar-event-rating-ideal, 
+	.v-calendar .v-calendar-event-rating-ideal-all-day, 
+	.v-calendar .v-calendar-event-rating-ideal .v-calendar-event-caption, 
+	.v-calendar .v-calendar-event-rating-ideal .v-calendar-event-content {
+		background-color: rgba(102, 204, 153, 0.5);
+		color: rgb(0, 102, 51);
 	}
 
 }
