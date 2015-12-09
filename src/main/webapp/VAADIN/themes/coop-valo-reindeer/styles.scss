@@ -1,0 +1,11 @@
+@import "coop-valo-reindeer.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in coop-valo-reindeer.scss
+
+.coop-valo-reindeer {
+  @include addons;
+  @include coop-valo-reindeer;
+
+}

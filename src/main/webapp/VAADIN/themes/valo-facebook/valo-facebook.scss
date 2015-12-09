@@ -28,10 +28,10 @@
 // Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
 
 @import "variables";
-@import "../valo-coop/valo-coop.scss";
+@import "../valo/valo.scss";
 
 @mixin valo-facebook {
-  @include valo-coop;
+  @include valo;
 
   // Insert your own theme rules here
 }
