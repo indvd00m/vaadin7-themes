@@ -1,0 +1,34 @@
+$v-app-loading-text: "Loading...";
+
+$v-background-color: #fafafa;
+$v-app-background-color: #f7f7f7;
+$v-panel-background-color: #fff;
+$v-focus-color: #54769A;
+$v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);
+$v-border-radius: 3px;
+$v-textfield-border-radius: 0;
+$v-font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+$v-font-color: #2B587A;
+$v-font-weight: 400;
+$v-link-text-decoration: none;
+$v-shadow: 0 1px 0 (v-shade 0.2);
+$v-bevel: inset 0 1px 0 v-tint;
+$v-gradient: v-linear 12%;
+$v-overlay-shadow: 0 3px 8px v-shade, 0 0 0 1px (v-shade 0.7);
+$v-shadow-opacity: 20%;
+$v-selection-overlay-padding-horizontal: 0;
+$v-selection-overlay-padding-vertical: 6px;
+$v-selection-item-border-radius: 0;
+
+$v-font-size: 12px;
+
+$v-unit-size: 26px;
+$v-unit-size--small: 20px;
+$v-unit-size--tiny: 18px;
+
+$v-layout-margin-top: 18px;
+$v-layout-margin-right: 18px;
+$v-layout-margin-bottom: 18px;
+$v-layout-margin-left: 18px;
+$v-layout-spacing-vertical: 7px;
+$v-layout-spacing-horizontal: 6px;

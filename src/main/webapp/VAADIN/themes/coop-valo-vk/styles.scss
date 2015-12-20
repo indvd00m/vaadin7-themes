@@ -1,0 +1,11 @@
+@import "coop-valo-vk.scss";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in coop-valo-vk.scss
+
+.coop-valo-vk {
+  @include addons;
+  @include coop-valo-vk;
+
+}
