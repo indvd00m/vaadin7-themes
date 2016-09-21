@@ -1,10 +1,10 @@
-vaadin7-themes
+#vaadin7-themes
 ==============
 
 Precompiled additional themes for Vaadin 7.
 
 
-Using
+## Using
 ========
 Add repository to your POM:
 
@@ -30,7 +30,11 @@ Use new theme in your UI with @Theme annotaion:
 		...
 	}
 
-Workflow
+## Versions
+Maven artifacts are built via Travis: 
+[![Build Status](https://travis-ci.org/indvd00m/vaadin7-themes.svg?branch=master)](https://travis-ci.org/indvd00m/vaadin7-themes)
+
+## Workflow
 ========
 
 To compile the entire project, run "mvn install".
@@ -49,7 +53,7 @@ To produce a deployable production mode WAR:
   - See below for more information. Running "mvn clean" removes the pre-compiled theme.
 - test with "mvn jetty:run-war
 
-Using a precompiled theme
+## Using a precompiled theme
 -------------------------
 
 When developing the application, Vaadin can compile the theme on the fly when needed,
