@@ -1,14 +1,14 @@
 $v-app-loading-text: "Loading...";
 
 $v-background-color: #fafafa;
-$v-app-background-color: #f7f7f7;
-$v-panel-background-color: #fff;
-$v-focus-color: #54769A;
+$v-app-background-color: #fafbfc;
+$v-panel-background-color: #ffffff;
+$v-focus-color: #507299;
 $v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);
 $v-border-radius: 3px;
 $v-textfield-border-radius: 0;
-$v-font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
-#$v-font-color: #2B587A;
+$v-font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+// $v-font-color: #2B587A;
 $v-font-weight: 400;
 $v-link-text-decoration: none;
 $v-shadow: 0 1px 0 (v-shade 0.2);
@@ -20,7 +20,7 @@ $v-selection-overlay-padding-horizontal: 0;
 $v-selection-overlay-padding-vertical: 6px;
 $v-selection-item-border-radius: 0;
 
-$v-font-size: 12px;
+$v-font-size: 12.5px;
 
 $v-unit-size: 26px;
 $v-unit-size--small: 20px;
