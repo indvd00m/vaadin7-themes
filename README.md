@@ -24,7 +24,7 @@ Add dependency to your war maven project:
 ```
 
 Use new theme in your UI with @Theme annotaion:
-```css
+```java
 	@Theme("valo-reindeer")
 	public class MyUI extends UI {
 		...
