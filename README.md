@@ -5,14 +5,15 @@ Precompiled additional themes for Vaadin 7.
 
 ## Using
 Add repository to your POM:
-
+```xml
 	<repository>
 		<id>indvd00m-github-repo</id>
 		<url>https://github.com/indvd00m/maven-repo/raw/master/repository</url>
 	</repository>
+```
 
 Add dependency to your war maven project:
-
+```xml
 	<dependency>
 		<groupId>com.indvd00m.vaadin</groupId>
 		<artifactId>vaadin7-themes</artifactId>
@@ -20,13 +21,15 @@ Add dependency to your war maven project:
 		<type>war</type>
 		<scope>runtime</scope>
 	</dependency>
+```
 
 Use new theme in your UI with @Theme annotaion:
-
+```css
 	@Theme("valo-reindeer")
 	public class MyUI extends UI {
 		...
 	}
+```
 
 ## Versions
 Maven artifacts are built via Travis: 
